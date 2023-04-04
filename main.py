@@ -3,3 +3,4 @@ even_odd_count = [0, 0] # [четные на нечетных местах, не
 for i in range(len(arr)):
     if i % 2 != 0:  # нечетное место
         if arr[i] % 2 == 0:  # четный элемент
+            even_odd_count[0] += 1
