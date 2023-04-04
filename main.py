@@ -6,3 +6,4 @@ for i in range(len(arr)):
             even_odd_count[0] += 1
     else:  # четное место
         if arr[i] % 2 != 0:  # нечетный элемент
+            even_odd_count[1] += 1
